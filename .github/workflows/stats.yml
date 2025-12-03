@@ -33,7 +33,7 @@ jobs:
 
       - name: Generate GitHub Stats
         env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
         run: go run main.go
 
