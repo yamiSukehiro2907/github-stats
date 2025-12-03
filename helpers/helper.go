@@ -71,7 +71,7 @@ func GenerateSVG(stats *UserStats, languages []LanguageStat) string {
 
 	var sb strings.Builder
 
-	sb.WriteString(`<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+	sb.WriteString(`<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
@@ -79,30 +79,30 @@ func GenerateSVG(stats *UserStats, languages []LanguageStat) string {
     </linearGradient>
   </defs>
   
-  <rect width="500" height="300" fill="#0d1117" rx="10"/>
+  <rect width="800" height="450" fill="#0d1117" rx="10"/>
   
-  <text x="250" y="25" fill="url(#grad)" font-size="18" font-weight="bold" text-anchor="middle" font-family="Arial, sans-serif">
+  <text x="400" y="35" fill="url(#grad)" font-size="24" font-weight="bold" text-anchor="middle" font-family="Arial, sans-serif">
     📊 GitHub Statistics
   </text>
   `)
 
 	sb.WriteString(fmt.Sprintf(`
-  <text x="20" y="50" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+  <text x="40" y="80" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     🎯 Contributions: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>
-  <text x="20" y="68" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+  <text x="40" y="105" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     💻 Commits: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>
-  <text x="20" y="86" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+  <text x="40" y="130" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     🔀 PRs: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>
-  <text x="260" y="50" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+  <text x="420" y="80" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     📦 Repos: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>
-  <text x="260" y="68" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+  <text x="420" y="105" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     ⭐ Stars: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>
-  <text x="260" y="86" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+  <text x="420" y="130" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     🍴 Forks: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>`,
 		cc.ContributionCalendar.TotalContributions,
@@ -115,16 +115,16 @@ func GenerateSVG(stats *UserStats, languages []LanguageStat) string {
 
 	sb.WriteString(`
   
-  <line x1="20" y1="100" x2="480" y2="100" stroke="#30363d" stroke-width="1"/>
+  <line x1="40" y1="160" x2="760" y2="160" stroke="#30363d" stroke-width="1"/>
   
-  <text x="20" y="118" fill="#8b949e" font-size="11" font-weight="bold" font-family="Arial, sans-serif">
+  <text x="40" y="185" fill="#8b949e" font-size="14" font-weight="bold" font-family="Arial, sans-serif">
     TOP LANGUAGES
   </text>`)
 
-	leftColumnX := 20
-	rightColumnX := 260
-	startY := 135
-	rowHeight := 14
+	leftColumnX := 40
+	rightColumnX := 420
+	startY := 210
+	rowHeight := 20
 
 	for i, lang := range languages {
 		if i >= 12 {
@@ -146,22 +146,22 @@ func GenerateSVG(stats *UserStats, languages []LanguageStat) string {
 			color = "#858585"
 		}
 
-		barWidth := lang.Percentage * 0.8
-		if barWidth < 3 {
-			barWidth = 3
+		barWidth := lang.Percentage * 1.4
+		if barWidth < 5 {
+			barWidth = 5
 		}
 
 		sb.WriteString(fmt.Sprintf(`
-  <text x="%d" y="%d" fill="#c9d1d9" font-size="9" font-family="monospace">%s</text>
-  <rect x="%d" y="%d" width="%.1f" height="8" fill="%s" rx="1"/>
-  <text x="%d" y="%d" fill="#8b949e" font-size="8" font-family="monospace">%.1f%%</text>`,
-			xPos, yPos, truncateName(lang.Name, 10),
-			xPos+80, yPos-7, barWidth, color,
-			xPos+165, yPos, lang.Percentage,
+  <text x="%d" y="%d" fill="#c9d1d9" font-size="12" font-family="monospace">%s</text>
+  <rect x="%d" y="%d" width="%.1f" height="12" fill="%s" rx="2"/>
+  <text x="%d" y="%d" fill="#8b949e" font-size="11" font-family="monospace">%.1f%%</text>`,
+			xPos, yPos, truncateName(lang.Name, 12),
+			xPos+115, yPos-10, barWidth, color,
+			xPos+260, yPos, lang.Percentage,
 		))
 	}
 
-	sb.WriteString(`<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">`);
+	sb.WriteString("\n</svg>")
 
 	return sb.String()
 }
