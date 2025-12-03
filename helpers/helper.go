@@ -161,7 +161,7 @@ func GenerateSVG(stats *UserStats, languages []LanguageStat) string {
 		))
 	}
 
-	sb.WriteString("\n</svg>")
+	sb.WriteString(`<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">`);
 
 	return sb.String()
 }
