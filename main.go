@@ -14,9 +14,9 @@ import (
 )
 
 func main() {
-	token := os.Getenv("GITHUB_TOKEN")
+	token := os.Getenv("ACCESS_TOKEN")
 	if token == "" {
-		log.Fatal("GITHUB_TOKEN environment variable is required")
+		log.Fatal("ACCESS_TOKEN environment variable is required")
 	}
 
 	username := os.Getenv("GITHUB_USERNAME")
