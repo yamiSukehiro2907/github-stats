@@ -43,6 +43,9 @@ func ProcessLanguageStats(stats *UserStats) []LanguageStat {
 
 	var languages []LanguageStat
 	for _, lang := range languageMap {
+		if lang.Name == "HTML" || lang.Name == "CSS" {
+			continue
+		}
 		lang.Percentage = float64(lang.Size) / float64(totalSize) * 100
 		languages = append(languages, *lang)
 	}
