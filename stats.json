@@ -1,16 +1,16 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 881,
+      "TotalCommitContributions": 888,
       "TotalIssueContributions": 1,
       "TotalPullRequestContributions": 6,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 936
+        "TotalContributions": 944
       }
     },
     "Repositories": {
-      "TotalCount": 45,
+      "TotalCount": 46,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -1015,6 +1015,28 @@
                 "Node": {
                   "Name": "Java",
                   "Color": "#b07219"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "StargazerCount": 0,
+          "ForkCount": 0,
+          "Languages": {
+            "Edges": [
+              {
+                "Size": 11881,
+                "Node": {
+                  "Name": "JavaScript",
+                  "Color": "#f1e05a"
+                }
+              },
+              {
+                "Size": 550,
+                "Node": {
+                  "Name": "PLpgSQL",
+                  "Color": "#336790"
                 }
               }
             ]

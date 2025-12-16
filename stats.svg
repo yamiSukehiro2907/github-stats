@@ -13,16 +13,16 @@
   </text>
   
   <text x="50" y="80" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    🎯 Contributions: <tspan fill="#58a6ff" font-weight="bold">936</tspan>
+    🎯 Contributions: <tspan fill="#58a6ff" font-weight="bold">944</tspan>
   </text>
   <text x="50" y="105" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    💻 Commits: <tspan fill="#58a6ff" font-weight="bold">881</tspan>
+    💻 Commits: <tspan fill="#58a6ff" font-weight="bold">888</tspan>
   </text>
   <text x="50" y="130" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     🔀 PRs: <tspan fill="#58a6ff" font-weight="bold">6</tspan>
   </text>
   <text x="530" y="80" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    📦 Repos: <tspan fill="#58a6ff" font-weight="bold">45</tspan>
+    📦 Repos: <tspan fill="#58a6ff" font-weight="bold">46</tspan>
   </text>
   <text x="530" y="105" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     ⭐ Stars: <tspan fill="#58a6ff" font-weight="bold">19</tspan>
@@ -37,17 +37,17 @@
     TOP LANGUAGES
   </text>
   <text x="50" y="205" fill="#c9d1d9" font-size="12" font-family="monospace">Jupyter Not…</text>
-  <rect x="165" y="195" width="71.0" height="12" fill="#DA5B0B" rx="2"/>
-  <text x="355" y="205" fill="#8b949e" font-size="11" font-family="monospace">39.4%</text>
+  <rect x="165" y="195" width="70.8" height="12" fill="#DA5B0B" rx="2"/>
+  <text x="355" y="205" fill="#8b949e" font-size="11" font-family="monospace">39.3%</text>
   <text x="50" y="223" fill="#c9d1d9" font-size="12" font-family="monospace">Java</text>
-  <rect x="165" y="213" width="57.4" height="12" fill="#b07219" rx="2"/>
-  <text x="355" y="223" fill="#8b949e" font-size="11" font-family="monospace">31.9%</text>
+  <rect x="165" y="213" width="57.3" height="12" fill="#b07219" rx="2"/>
+  <text x="355" y="223" fill="#8b949e" font-size="11" font-family="monospace">31.8%</text>
   <text x="50" y="241" fill="#c9d1d9" font-size="12" font-family="monospace">TypeScript</text>
   <rect x="165" y="231" width="20.1" height="12" fill="#3178c6" rx="2"/>
-  <text x="355" y="241" fill="#8b949e" font-size="11" font-family="monospace">11.2%</text>
+  <text x="355" y="241" fill="#8b949e" font-size="11" font-family="monospace">11.1%</text>
   <text x="50" y="259" fill="#c9d1d9" font-size="12" font-family="monospace">JavaScript</text>
-  <rect x="165" y="249" width="19.3" height="12" fill="#f1e05a" rx="2"/>
-  <text x="355" y="259" fill="#8b949e" font-size="11" font-family="monospace">10.7%</text>
+  <rect x="165" y="249" width="19.7" height="12" fill="#f1e05a" rx="2"/>
+  <text x="355" y="259" fill="#8b949e" font-size="11" font-family="monospace">10.9%</text>
   <text x="50" y="277" fill="#c9d1d9" font-size="12" font-family="monospace">HTML</text>
   <rect x="165" y="267" width="7.2" height="12" fill="#e34c26" rx="2"/>
   <text x="355" y="277" fill="#8b949e" font-size="11" font-family="monospace">4.0%</text>
