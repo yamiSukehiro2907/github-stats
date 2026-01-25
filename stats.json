@@ -1,16 +1,16 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 985,
+      "TotalCommitContributions": 991,
       "TotalIssueContributions": 1,
       "TotalPullRequestContributions": 6,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1042
+        "TotalContributions": 1048
       }
     },
     "Repositories": {
-      "TotalCount": 49,
+      "TotalCount": 48,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -366,7 +366,7 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 518841,
+                "Size": 520519,
                 "Node": {
                   "Name": "Java",
                   "Color": "#b07219"
@@ -1049,21 +1049,6 @@
             "Edges": [
               {
                 "Size": 8842168,
-                "Node": {
-                  "Name": "Jupyter Notebook",
-                  "Color": "#DA5B0B"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": [
-              {
-                "Size": 47180,
                 "Node": {
                   "Name": "Jupyter Notebook",
                   "Color": "#DA5B0B"
