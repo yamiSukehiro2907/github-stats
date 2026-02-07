@@ -1,12 +1,12 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1029,
+      "TotalCommitContributions": 1037,
       "TotalIssueContributions": 1,
       "TotalPullRequestContributions": 6,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1088
+        "TotalContributions": 1096
       }
     },
     "Repositories": {
@@ -361,12 +361,12 @@
           }
         },
         {
-          "StargazerCount": 2,
+          "StargazerCount": 1,
           "ForkCount": 0,
           "Languages": {
             "Edges": [
               {
-                "Size": 540195,
+                "Size": 542190,
                 "Node": {
                   "Name": "Java",
                   "Color": "#b07219"
@@ -427,7 +427,7 @@
           }
         },
         {
-          "StargazerCount": 1,
+          "StargazerCount": 0,
           "ForkCount": 0,
           "Languages": {
             "Edges": [
@@ -449,7 +449,7 @@
           }
         },
         {
-          "StargazerCount": 1,
+          "StargazerCount": 0,
           "ForkCount": 0,
           "Languages": {
             "Edges": [
@@ -464,7 +464,7 @@
           }
         },
         {
-          "StargazerCount": 1,
+          "StargazerCount": 0,
           "ForkCount": 0,
           "Languages": {
             "Edges": [
@@ -486,14 +486,14 @@
           }
         },
         {
-          "StargazerCount": 1,
+          "StargazerCount": 0,
           "ForkCount": 0,
           "Languages": {
             "Edges": []
           }
         },
         {
-          "StargazerCount": 1,
+          "StargazerCount": 0,
           "ForkCount": 0,
           "Languages": {
             "Edges": [
@@ -508,14 +508,14 @@
           }
         },
         {
-          "StargazerCount": 1,
+          "StargazerCount": 0,
           "ForkCount": 0,
           "Languages": {
             "Edges": []
           }
         },
         {
-          "StargazerCount": 1,
+          "StargazerCount": 0,
           "ForkCount": 0,
           "Languages": {
             "Edges": [
@@ -544,7 +544,7 @@
           }
         },
         {
-          "StargazerCount": 1,
+          "StargazerCount": 0,
           "ForkCount": 0,
           "Languages": {
             "Edges": [
@@ -559,7 +559,7 @@
           }
         },
         {
-          "StargazerCount": 2,
+          "StargazerCount": 1,
           "ForkCount": 0,
           "Languages": {
             "Edges": [
@@ -588,7 +588,7 @@
           }
         },
         {
-          "StargazerCount": 2,
+          "StargazerCount": 1,
           "ForkCount": 0,
           "Languages": {
             "Edges": [
@@ -603,7 +603,7 @@
           }
         },
         {
-          "StargazerCount": 2,
+          "StargazerCount": 1,
           "ForkCount": 0,
           "Languages": {
             "Edges": [
@@ -1092,7 +1092,7 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 93068,
+                "Size": 105049,
                 "Node": {
                   "Name": "JavaScript",
                   "Color": "#f1e05a"
